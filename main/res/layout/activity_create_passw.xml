@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.korisnik.diaryapp.CreatePassword"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back">
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sifra1"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="25dp"/>
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sifra2"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+    android:id="@+id/editText2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPassword"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="25dp"
+    />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="39dp"
+        android:layout_height="30dp"
+        android:background="@drawable/circle"
+        android:text="@string/OK"
+        />
+
+</LinearLayout>

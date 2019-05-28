@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DiaryAppp</string>
+    <string name="title_hint">Naslov priče..</string>
+    <string name="title_label">Naslov</string>
+    <string name="details_label">Detalji</string>
+    <string name="story_label">Započni svoju priču..</string>
+    <string name="sifra1">Unesite novu šifru</string>
+    <string name="sifra2">Potvrdite šifru</string>
+    <string name="sifra">Unesite šifru</string>
+    <string name="edit">Edit</string>
+    <string name="OK">OK</string>
+    <string name="loading">Učitavanje..</string>
+    <string name="date_picker_title">Datum dešavanja: </string>
+
+    <string name="new_story">New Story</string>
+    <string name="event">Event</string>
+    <!--string name="subtitle_format">%1$d story</string-->
+    <string name="share">Podijeli svoju priču</string>
+    <string name="friend">friend</string>
+    <string name="delete_story">Obrisano!!</string>
+    <!--string name="delete_sstory">Obrisano!</string-->
+
+    <string name="story">%1$s!
+    Datum dešavanja %2$s. %3$s.
+
+    </string>
+
+    <string name="moja_prica">Moja priča</string>
+    <string name="share_story">Podijeli svoju priču</string>
+</resources>
